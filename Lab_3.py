@@ -19,17 +19,29 @@ else:
     print(" both numbers are the same! ")
 
 ## ============ password checker =================
+
 user_password = int(input(" type your password in: "))
-admin_password = admin 
+admin_password = ("admin")
 
 if admin_password==user_password:
     print("access granted!")
 else:
     print("STRANGER ALERT GET OUT!!!!")
+
 ## ============ simple calculatior ===============
 
 number_1 = int(input(" what is the first number? "))
 number_2 = int(input(" what is the secpnd number? "))
+op = int(input("enter op"))
+
+if ( op== '+' ):
+    print(number_1 + number_2)
+elif ( op== '-' ):
+    print(number_1 - number_2)
+elif ( op== '*' ):
+    print(number_1 * number_2)
+elif ( op== '/' ):
+    print(number_1 / number_2)
 
 ## ============ positive, negative or 0 ==========
 
@@ -43,3 +55,4 @@ else:
     print(" your number is equal to 0!! ")
 
 ## ============ day of the week ==================
+
